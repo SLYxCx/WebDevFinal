@@ -8,7 +8,7 @@ function submitEventHandler() {
         while (submitBtn.lastChild) {
             submitBtn.removeChild(submitBtn.lastChild);
         }
-    }
+    };
     removeChild(submitBtn);
     const message = document.createElement("p");
     message.innerText = "Thank you for your message!";
