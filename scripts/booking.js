@@ -120,6 +120,6 @@ function calculate() {
     // }
     numberOfDays = highlighted.length;
     let costLabel = document.getElementById("calculated-cost");
-    costLabel.innerHTML = costPerDay * numberOfDays
+    costLabel.innerHTML = costPerDay * numberOfDays;
 }
 
